@@ -1,3 +1,2 @@
-# FYP_Flower_Classification
-MDS10 final year project
+Final year project (Group MDS10）
 This project is to build an lightweight mobile app that drives a custom CNN for flower classification.
