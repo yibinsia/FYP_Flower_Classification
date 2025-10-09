@@ -1,10 +1,7 @@
-This project focuses on developing a lightweight mobile application capable of classifying 102 flower species using a custom-built Convolutional Neural Network (CNN) trained entirely from scratch. The objective was to create an efficient, accurate, and deployable model suitable for mobile environments, without relying on large pretrained architectures.
+A lightweight mobile application that classifies 102 flower species using a custom Convolutional Neural Network (CNN) built and trained from scratch. The focus of this project was to design an efficient deep learning model that performs well on real-world images while remaining small enough for mobile deployment.
 
-Key components of the system include:
-• A four-block CNN architecture incorporating convolutional layers, Batch Normalization, ReLU activation, max pooling, and dropout regularization to balance learning and prevent overfitting.
-• A dual pooling layer combining Adaptive Average Pooling and Adaptive Max Pooling, allowing the model to capture both broad contextual and fine-grained discriminative features from flower images.
-• Advanced data augmentation strategies, including Mixup and CutMix, applied to improve generalization and prevent the model from memorizing specific patterns from the training data.
+The model consists of four convolutional blocks with Batch Normalization, ReLU activation, max pooling, and dropout layers for regularization. It uses both adaptive average and max pooling to extract global and local image features effectively. To improve generalization, Mixup and CutMix data augmentation techniques were applied during training.
 
-The final model achieved 94.2% testing accuracy and 91.18% validation accuracy, with a compact model size of only 22.2 MB—making it suitable for mobile deployment. The model was exported using TorchScript and integrated into an Android Studio–based mobile application that allows users to capture or upload flower images for instant classification.
+The final model reached 94.2% test accuracy and 91.18% validation accuracy with a total size of 22.2 MB. It was exported using TorchScript and integrated into an Android Studio application, allowing real-time flower recognition through photo capture or upload.
 
-This project demonstrates the potential of custom deep learning architectures to achieve high performance in specialized domains while maintaining efficiency for real-world applications.
+This repository includes the model architecture, training pipeline, and Android integration files.
