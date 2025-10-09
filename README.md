@@ -1,4 +1,4 @@
-Smart Garden: AI-Enhanced Flower Classification Mobile App
+***Smart Garden: AI-Enhanced Flower Classification Mobile App***
 
 A lightweight mobile application that classifies 102 flower species using a custom Convolutional Neural Network (CNN) built and trained from scratch. The focus of this project was to design an efficient deep learning model that performs well on real-world images while remaining small enough for mobile deployment.
 
